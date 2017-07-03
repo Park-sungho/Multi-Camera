@@ -1,7 +1,7 @@
 # Multi-Camera
  - Condition<p>
- <hr>
-  1. Enable Camera PIP Feature in the KERNEL.<p>
+ <p>
+  1. Enable Camera PIP Feature in the KERNEL.<br>
     The camera device needs to support the two path camera at the same time such as Camera PIP Feature.<p>
     (Supported Devices : Vega Iron2,,,)<p>
  <p>
@@ -10,7 +10,7 @@
        AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service<p>
        AndroidRuntime at android.hardware.Camera.<init>(Camera.java:xxx)<p>
        AndroidRuntime at android.hardware.Camera.open(Camera.java:364)<p>
-    <hr>
+    <hr><br>
     So, Camera PIP enabled in the device driver and then modified the camera permission on framework service.<p>
     Than the above error is not happened.<p>
 <p>

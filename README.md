@@ -1,7 +1,7 @@
 # Multi-Camera
  ## Condition<p>
  <p>
-  1. Enable Camera PIP Feature in the KERNEL.<br>
+  1. Enable Camera PIP Feature in the device driver.<br>
     The camera device needs to support the two path camera at the same time such as Camera PIP Feature.<br>
     (Supported Devices : Vega Iron2,,,)<br>
  <p>

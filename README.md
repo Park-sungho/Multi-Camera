@@ -7,9 +7,9 @@
  <p>
     If the device is not supported the Camera PIP than the below error is happened in my case.<p>
     <hr>
-       AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service<p>
-       AndroidRuntime at android.hardware.Camera.<init>(Camera.java:xxx)<p>
-       AndroidRuntime at android.hardware.Camera.open(Camera.java:364)<p>
+       AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service<br>
+       AndroidRuntime at android.hardware.Camera.<init>(Camera.java:)<br>
+       AndroidRuntime at android.hardware.Camera.open(Camera.java:)<br>
     <hr><br>
     So, Camera PIP enabled in the device driver and then modified the camera permission on framework service.<p>
     Than the above error is not happened.<p>

@@ -1,5 +1,5 @@
 # Multi-Camera
- #* Condition<p>
+ ## Condition<p>
  <p>
   1. Enable Camera PIP Feature in the KERNEL.<br>
     The camera device needs to support the two path camera at the same time such as Camera PIP Feature.<br>

@@ -14,7 +14,7 @@
     After I enabled the Camera PIP feature in the device driver and modified the camera permission on the Android's frameworks.
     the above errors were not happened.<br>
   <p>
-  2. Implement the Multi-Camera Application (While Working...)<br>
+  2. Implement the Multi-Camera Application<br>
     a) The application runs in service to support the camera service.<br>
     b) It's support the multi-recording at the same time.<br>
     c) Add the setting menu to set the resolution and framerate for testing.<br>

@@ -11,8 +11,8 @@
        AndroidRuntime at android.hardware.Camera.<init>(Camera.java:)<br>
        AndroidRuntime at android.hardware.Camera.open(Camera.java:)<br>
     <hr>
-    So, Camera PIP enabled in the device driver and then modified the camera permission on framework service.<br>
-    Than the above error is not happened.<br>
+    After I did Camera PIP enabled in the device driver and modified the camera permission error on the Android's framework.<br>
+    Than the above errors were not happened.<br>
   <p>
   2. Implement the Multi-Camera Application (While Working...)<br>
     a) The application runs in service to support the camera service.<br>

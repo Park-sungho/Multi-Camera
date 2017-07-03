@@ -2,7 +2,7 @@
  ## Condition<p>
  <p>
   1. Enable Camera PIP Feature in the device driver.<br>
-    The camera device needs to support the two path of cameras at the same time such as Camera PIP Feature.<br>
+    The camera device needs to support the two path of camera interface at the same time.<br>
     (Supported Devices : Vega Iron2,,,)<br>
  <p>
     If the device is not supported the Camera PIP than the below error is happened in my case.<br>

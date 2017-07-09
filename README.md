@@ -1,5 +1,5 @@
 # Multi-Camera
- ## Condition<p>
+ ## Condition
  <p>
   1. Enable Camera PIP Feature in the device driver.<br>
     The camera device needs to support the two path of camera interface at the same time.<br>

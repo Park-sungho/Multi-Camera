@@ -19,6 +19,9 @@
     b) It's support the multi-recording at the same time.<br>
     c) Add the setting menu to set the resolution, bitrate and framerate for testing.<br>
   <p>
-  3. check encoder source<br>
-  <p>
-  4. study Open-CV for funny preview (TODO)<br>
+  3. check codec source<br>
+  <tr>Test Case</tr>
+  <td>Test1</td>
+  <td>Test2</td>
+  <td>Test3</td>
+  <tr>Video Codec</tr>

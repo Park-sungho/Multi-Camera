@@ -32,7 +32,25 @@
   <td>Mpeg4/H264</td>
   <td>MPEG4 (Base Media / Version 2)</td>
   <td>AVC (Advanced Video Codec, Baseline@L4.1)</td>
-  <td>AAC (Advanced Video Codec, Baseline@L4.1)</td>
-  <td>1080P, 29fps, 12.2Mbps</td>
+  <td>AAC (Advanced Audio Coding)</td>
+  <td>1080P, 29fps, 12.2Mbps, High quality</td>
+  </tr>
+  <td>Mpeg4/MPEG4_SP</td>
+  <td>MPEG4 (Base Media / Version 2)</td>
+  <td>MPEG-4 Visual (Main@L4)</td>
+  <td>AAC (Advanced Audio Coding)</td>
+  <td>1080P, 14fps, 5.7Mbps, Normal quality</td>
+  </tr>
+  <td>3GPP/H264</td>
+  <td>MPEG4 (3GPP Media Release 4)</td>
+  <td>AVC (Advanced Video Code, Baseline@L4.1)</td>
+  <td>AAC (Advanced Audio Coding)</td>
+  <td>1080P, 30fps, 12.2Mbps, High quality</td>
+  </tr>
+  <td>WEBM/VP8</td>
+  <td>WebM (Version 2)</td>
+  <td>VP8</td>
+  <td>AAC (Advanced Audio Coding)</td>
+  <td>1080P, 30fps, 1,720kbps, Low quality</td>
   </tr>
   </table>

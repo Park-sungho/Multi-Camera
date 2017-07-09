@@ -6,6 +6,7 @@
     (Supported Devices : Vega Iron2,,,)<br>
  <p>
     If the device is not supported the Camera PIP than the below error is happened in my case.
+    <table border="1">
     <tr>
     <th>Case</th>
     <th>Log</th>
@@ -18,6 +19,7 @@
        AndroidRuntime at android.hardware.Camera.open(Camera.java:)</br>
     </td>
     </tr>
+    </table>
     After I enabled the Camera PIP feature in the device driver and modified the camera permission on the Android's frameworks.
     the above errors were not happened.<br>
   <p>

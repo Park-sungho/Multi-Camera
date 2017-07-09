@@ -7,7 +7,9 @@ package com.multicamera.service;
 import java.io.File;
 import java.io.IOException;
 
-import com.multicamera.settings.Constants;
+import com.multicamera.etc.CameraUtils;
+import com.multicamera.etc.Constants;
+import com.multicamera.ui.CameraSurfaceView;
 
 import android.app.Service;
 import android.content.ContentValues;
@@ -27,14 +29,17 @@ import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 public class FacingBackCamService extends Service implements SurfaceHolder.Callback {
     private static final String TAG = "FacingBackCamService";
 
-    private static final int PREVIEW_LAYOUT_WIDTH = 200;
-    private static final int PREVIWE_LAYOUT_HEIGHT = 200;
+    private static final int PREVIEW_LAYOUT_WIDTH = 180;
+    private static final int PREVIWE_LAYOUT_HEIGHT = 135;
     private static final int RECORDING_WIDTH = 1920;
     private static final int RECORDING_HEIGHT = 1080;
+    private static final float RECORDING_Y_MARGIN = 0.4f; //0.35f;
+    private static final float RECORDING_X_MARGIN = 0.01f;
 
     private static final String RECORDING_PATH = Environment.getExternalStorageDirectory().getPath()
             + Constants.RECORDING_PATH;
@@ -43,7 +48,7 @@ public class FacingBackCamService extends Service implements SurfaceHolder.Callb
     private Camera mCamera = null;
     private WindowManager mWindowManager;
     private MediaRecorder mMediaRecorder = null;
-    private SurfaceView mSurfaceView;
+    private CameraSurfaceView mSurfaceView;
 
     private File mFile;
     private String mMediaFullPath;
@@ -168,18 +173,18 @@ public class FacingBackCamService extends Service implements SurfaceHolder.Callb
     private void setCameraSurfaceView() {
         try {
             mWindowManager = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
-            mSurfaceView = new SurfaceView(this);
+            mSurfaceView = new CameraSurfaceView(this, null);
             WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams(
-                    PREVIEW_LAYOUT_WIDTH, 
-                    PREVIWE_LAYOUT_HEIGHT,
+                    CameraUtils.getDp2Pixel(this, PREVIEW_LAYOUT_WIDTH), 
+                    CameraUtils.getDp2Pixel(this, PREVIWE_LAYOUT_HEIGHT),
                     WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY,
                     WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH,
                     PixelFormat.TRANSLUCENT);
 
             layoutParams.gravity = Gravity.TOP;
-            layoutParams.gravity |= Gravity.LEFT;
-            layoutParams.verticalMargin = 0.1f;
-            layoutParams.horizontalMargin = 0.1f;
+            layoutParams.gravity |= Gravity.END;
+            layoutParams.verticalMargin = RECORDING_Y_MARGIN;
+            layoutParams.horizontalMargin = RECORDING_X_MARGIN;
 
             mWindowManager.addView(mSurfaceView, layoutParams);
             mSurfaceView.getHolder().addCallback(this);

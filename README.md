@@ -10,15 +10,11 @@
   <tr>
   <th>Test Case</td>
   <th>Video Container</td>
-  <th>Video Encoder</td>
-  <th>Audio Encoder</td>
   <th>Performance</td>
   </tr>
   <tr>
   <td>Mpeg4/H264</td>
   <td>MPEG4 (Base Media / Version 2)</td>
-  <td>AVC (Advanced Video Codec, Baseline@L4.1)</td>
-  <td>AAC (Advanced Audio Coding)</td>
   <td>1080P, 29fps, 12.2Mbps, High quality</td>
   </tr>
   </table>

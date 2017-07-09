@@ -19,7 +19,7 @@
     b) It's support the multi-recording at the same time.<br>
     c) Add the setting menu to set the resolution, bitrate and framerate for testing.<br>
   <p>
-  3. check codec source<br>
+  3. check codec source
   <table border="1">
   <tr>
   <th>Test Case</td>

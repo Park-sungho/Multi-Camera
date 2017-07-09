@@ -26,5 +26,11 @@
   <th>Video Container</td>
   <th>Video Encoder</td>
   <th>Audio Encoder</td>
+  <th>Performance</td>
+  </tr>
+  <tr>
+  <td>Mpeg4/H264</td>MPEG4 (Base Media / Version 2)<td>AVC (Advanced Video Codec, Baseline@L4.1)</td>
+  <td>AAC (Advanced Video Codec, Baseline@L4.1)</td>
+  <td>1080P, 29fps, 12.2Mbps</td>
   </tr>
   </table>

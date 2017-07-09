@@ -11,7 +11,7 @@
     <th>Log</th>
     </tr>
     <tr align="left">
-    <td>E/AndroidRuntime( 1798): Caused by: java.lang.RuntimeException: Fail to connect to camera service<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.<init>(Camera.java:476)<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.open(Camera.java:325)<br>E/AndroidRuntime( 1798): 	at com.artncore.anc.CameraFrontPreview.<init>(CameraFrontPreview.java:21)</br>E/AndroidRuntime( 1798): 	... 25 more</td>
+    <td>E/AndroidRuntime( 1798): Caused by: java.lang.RuntimeException: Fail to connect to camera service<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.<init>(Camera.java:476)<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.open(Camera.java:325)<br>E/AndroidRuntime( 1798): 	... 25 more</td>
     </tr>
     </table>  
     After I enabled the Camera PIP feature in the device driver and modified the camera permission on the Android's frameworks.

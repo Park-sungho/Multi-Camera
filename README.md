@@ -20,8 +20,11 @@
     c) Add the setting menu to set the resolution, bitrate and framerate for testing.<br>
   <p>
   3. check codec source<br>
-  <tr>Test Case</tr>
-  <td>Test1</td>
-  <td>Test2</td>
-  <td>Test3</td>
-  <tr>Video Codec</tr>
+  <table border="1">
+  <tr>
+  <th>Test Case</td>
+  <th>Video Container</td>
+  <th>Video Encoder</td>
+  <th>Audio Encoder</td>
+  </tr>
+  </table>

@@ -5,9 +5,10 @@
 package com.multicamera.main;
 
 import com.multicamera.R;
+import com.multicamera.etc.CameraUtils;
+import com.multicamera.etc.Constants;
 import com.multicamera.service.FacingBackCamService;
 import com.multicamera.service.FacingFrontCamService;
-import com.multicamera.settings.Constants;
 import com.multicamera.settings.SettingsPreference;
 
 import android.app.Activity;

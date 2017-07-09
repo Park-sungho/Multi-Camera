@@ -7,18 +7,7 @@
  <p>
     If the device is not supported the Camera PIP than the below error is happened in my case.
     <table border="1">
-    <tr>
-    <th>Case</th>
-    <th>Log</th>
-    </tr>
-    <tr>
-    <td>test1</td>
-    <td>test2</td>
-    <td>Camera.open()</td>
-    <td>
-test
-    </td>
-    </tr>
+    <td>test</td>
     </table>
     After I enabled the Camera PIP feature in the device driver and modified the camera permission on the Android's frameworks.
     the above errors were not happened.<br>

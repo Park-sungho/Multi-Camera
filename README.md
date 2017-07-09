@@ -5,12 +5,14 @@
     The camera device needs to support the two path of camera interface at the same time.<br>
     (Supported Devices : Vega Iron2,,,)<br>
  <p>
-    If the device is not supported the Camera PIP than the below error is happened in my case.<br>
+    If the device is not supported the Camera PIP than the below error is happened in my case.
     <table border=1>
     <tr>
+    <th>Case</th>
     <th>Log</th>
     </tr>
     <tr>
+    <td>Camera.open()</td>
     <td>
        AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service</br>
        AndroidRuntime at android.hardware.Camera.<init>(Camera.java:)</br>

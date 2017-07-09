@@ -11,7 +11,8 @@
     <th>Log</th>
     </tr>
     <tr align="left">
-    <td>AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service</br>AndroidRuntime at android.hardware.Camera.<init>(Camera.java)</br>AndroidRuntime at android.hardware.Camera.open(Camera.java)</br>
+    <td>E/AndroidRuntime( 1798): Caused by: java.lang.RuntimeException: Fail to connect to camera service<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.<init>(Camera.java:476)<br>E/AndroidRuntime( 1798): 	at android.hardware.Camera.open(Camera.java:325)
+E/AndroidRuntime( 1798): 	at com.artncore.anc.CameraFrontPreview.<init>(CameraFrontPreview.java:21)</br>E/AndroidRuntime( 1798): 	... 25 more<br>AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service</br>AndroidRuntime at android.hardware.Camera.<init>(Camera.java)</br>AndroidRuntime at android.hardware.Camera.open(Camera.java)
     </td>
     </tr>
     </table>  

@@ -11,8 +11,7 @@
     <th>Log</th>
     </tr>
     <tr align="left">
-    <td>
-       AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service</br>AndroidRuntime at android.hardware.Camera.<init>(Camera.java)</br>AndroidRuntime at android.hardware.Camera.open(Camera.java)</br>
+    <td>AndroidRuntime Caused by: java.lang.RuntimeException: Fail to connect to camera service</br>AndroidRuntime at android.hardware.Camera.<init>(Camera.java)</br>AndroidRuntime at android.hardware.Camera.open(Camera.java)</br>
     </td>
     </tr>
     </table>  

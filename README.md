@@ -17,8 +17,7 @@
        AndroidRuntime at android.hardware.Camera.open(Camera.java:)</br>
     </td>
     </tr>
-    </table>
-  
+    </table>  
     After I enabled the Camera PIP feature in the device driver and modified the camera permission on the Android's frameworks.
     the above errors were not happened.<br>
   <p>

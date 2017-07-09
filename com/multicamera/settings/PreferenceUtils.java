@@ -1,5 +1,7 @@
 package com.multicamera.settings;
 
+import com.multicamera.etc.Constants;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 

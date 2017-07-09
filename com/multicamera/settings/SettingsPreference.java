@@ -5,6 +5,7 @@
 package com.multicamera.settings;
 
 import com.multicamera.R;
+import com.multicamera.etc.Constants;
 
 import android.os.Bundle;
 import android.preference.ListPreference;

@@ -5,7 +5,7 @@
     The camera device needs to support the two path of camera interface at the same time.<br>
     (Supported Devices : Vega Iron2,,,)<br>
  <p>
-    If the device is not supported the Camera PIP than the below error is happened in my case.<br>
+    If the device is not supported the Camera PIP than the below error is happened in my case.
     <table>
     <tr>
     <th>Log</th>

@@ -1,5 +1,4 @@
 /**
- * This program is free software: 
  * Added by park Sung-ho
  */
 package com.multicamera.service;
